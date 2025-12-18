@@ -8,12 +8,6 @@
 > **A smart financial management tool that goes beyond simple tracking. It leverages AI to categorize spending patterns and provide hyper-personalized financial advice based on your unique habits.**
 
 ---
-
-## 📺 Demo
-
-![App Preview](https://via.placeholder.com/800x400?text=Insert+App+Dashboard+Screenshot+Here)
-*Check out the live demo here: [Insert Link to your Portfolio/Streamlit Cloud]*
-
 ---
 
 ## 🌟 Key Features
@@ -31,11 +25,11 @@
 The intelligence of this application is split into two main pipelines:
 
 ### 1. The Classification Engine
-Instead of rigid "if-else" statements, I used [Insert Model, e.g., GPT-3.5 or a fine-tuned Scikit-Learn model] to handle messy transaction text. This allows the app to understand that "AMZN MKTP" and "Amazon.com" belong to the same category.
+Instead of rigid "if-else" statements, I used GPT-3.5 to handle messy transaction text. This allows the app to understand that "AMZN MKTP" and "Amazon.com" belong to the same category.
 
 ### 2. The Personalized Advisory Logic
 The app feeds anonymized spending summaries into an LLM with a custom system prompt:
-> *"You are a certified financial planner. Analyze this user's monthly data of $4,000 income and $3,500 expenses. Identify the top 3 areas for optimization."*
+> *"You are a certified financial planner. Analyze this user's monthly data of R4,000 income and R3,500 expenses. Identify the top 3 areas for optimization."*
 
 This ensures the advice isn't generic, but specific to the user's actual behavior.
 
@@ -88,10 +82,5 @@ This ensures the advice isn't generic, but specific to the user's actual behavio
 
 ## 🛣️ Roadmap
 - [ ] Multi-currency support.
-- [ ] Bank API integration (Plaid).
-- [ ] Weekly SMS financial summaries.
+- [ ] Bank API integration (Plaid)
 
----
-
-## 👤 Contact
-**Your Name** [LinkedIn](your-link) | [Portfolio](your-link) | [Email](mailto:your@email.com)
